@@ -1,0 +1,2 @@
+#!/bin/bash
+flex main.l && gcc ./lex.yy.c -o run -lm && ./run && rm ./lex.yy.c && rm ./run

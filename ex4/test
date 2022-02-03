@@ -1,0 +1,49 @@
+2 3+4*
+= 20
+1 2 3 4 + * -
+= -13
+-1 2 -3 4 + * -
+= -3
+8 -7 6 -5 4 * -3 % / - +
+= 4
+2 3 2 ^ ^
+= 512
+2 3+*
+Błąd: za mała liczba argumentów
+2 3 4 +
+Błąd: za mała liczba operatorów
+2.4 3+
+Błąd: zły symbol "."
+
+
+5 5 + + 5 5 - -
+Błąd: za mała liczba argumentów
+(pusta linia po poprzednym)
+(brak odpowiedzi|Błąd: za mała liczba argumentów)
+
+5 5 + + 5 5 -
+Błąd: za mała liczba argumentów
+(pusta linia po poprzednym)
+(brak odpowiedzi|Błąd: za mała liczba argumentów)
+
+2 0 %
+Błąd: dzielenie przez 0
+2 0 /
+Błąd: dzielenie przez 0
+0 0 /
+Błąd: dzielenie przez 0
+
+2 3+4*
+1 2 3 4 + * -
+-1 2 -3 4 + * -
+8 -7 6 -5 4 * -3 % / - +
+2 3 2 ^ ^
+2 3+*
+2 3 4 +
+2.4 3+
+5 5 + + 5 5 - -
+
+5 5 + + 5 5 -
+2 0 %
+2 0 /
+0 0 /

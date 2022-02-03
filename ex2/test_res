@@ -1,0 +1,9 @@
+<?xml version="1.1"?>
+<!DOCTYPE none>
+<root>
+  <foo var="test>  <!-- this is not a comment --> <a" href="x" />
+  <![CDATA[
+    In CDATA <!-- everything is data!!! -->
+  ]]>
+  <!-- invalid -- comment -->
+</root>
